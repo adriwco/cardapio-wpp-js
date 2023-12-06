@@ -1,2 +1,2 @@
-# cardapio-wpp
-Cardápio Online com WhatsApp
+## Cardápio Online com WhatsApp 
+🔸status: andamento
