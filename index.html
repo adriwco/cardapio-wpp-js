@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cardápio Online com WhatsApp</title>
-  <link rel="stylesheet" href="./src/libs/css-lib/bootstrap.min.css">
   <link rel="stylesheet" href="./src/libs/css-lib/fontawesome.css">
+  <link rel="stylesheet" href="./src/libs/css-lib/bootstrap.min.css">
   <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
-  
-  <script src="./src/libs/js-lib/bootstrap.min.js"></script>
+  <header class="header">
+    <div class="container">
+      <section class="menu">
+        <nav class="navbar navbar-expand-lg pl-0 pr-0 col-one">
+          <a href="#" class="navbar-brand">
+            <img src="./src/img/logo.png" alt="" width="160" class="img-logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item"><a href="#reserva" class="nav-link"><b>Reserva</b></a></li>
+              <li class="nav-item"><a href="#servicos" class="nav-link"><b>Serviços</b></a></li>
+              <li class="nav-item"><a href="#cardapio" class="nav-link"><b>Cardápio</b></a></li>
+              <li class="nav-item"><a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a></li>
+            </ul>
+            <a href="" class="btn btn-white btn-icon">
+              Meu carrinho <span class="icon">
+                <i class="fa fa-shopping-bag"></i>
+              </span>
+            </a>
+          </div>
+        </nav>
+      </section>
+      <section class="banner"></section>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="servicos" id="servicos"></section>
+    <section class="cardapio" id="cardapio"></section>
+    <section class="reserva" id="reserva"></section>
+  </main>
+
+  <section class="depoimentos" id="depoimentos"></section>
+
+  <footer class="footer"></footer>
+
+  <script src="https://kit.fontawesome.com/57e0ccf5bb.js" crossorigin="anonymous"></script>
   <script src="./src/libs/js-lib/jquery-1.12.4.min.js"></script>
   <script src="./src/libs/js-lib/modernizr-3.5.0.min.js"></script>
+  <script src="./src/libs/js-lib/bootstrap.min.js"></script>
   <script src="./src/libs/js-lib/popper.min.js"></script>
   <script src="./src/js/script.js"></script>
 </body>
+
 </html>
