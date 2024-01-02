@@ -31,6 +31,7 @@ img {
 :root {
   --color-backgroud: #fffdf7;
   --color-black: #212121;
+  --color-black-heavy: #000000;
   --color-text: #4f4f4f;
   --color-text-out: #90909e;
   --color-primary: #ffbf00;
