@@ -50,7 +50,9 @@ body {
 b{
   font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
-
+.hidden{
+  display: none !important;
+}
 .color-primary{
   color: var(--color-primary);
 }

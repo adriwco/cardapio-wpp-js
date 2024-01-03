@@ -1,0 +1,60 @@
+.depoimentos {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  position: relative;
+}
+.card-depoimentos {
+  height: 350px;
+  width: 350px;
+  border-radius: 120px;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 50px;
+}
+.depoimento {
+  display: flex;
+}
+.depoimento {
+  margin-top: 70px;
+}
+.depoimento img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  background-color: var(--color-white);
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.nome-depoimento {
+  color: var(--color-black);
+  font-size: 1.375rem;
+  margin-bottom: 5px;
+}
+.nota-depoimento{
+  font-weight: bolder;
+}
+.star-depoimento{
+  color: var(--color-primary);
+}
+.texto-depoimento{
+  display: flex;
+  font-size: 1rem;
+  color: var(--color-black);
+}
+.texto-depoimento i{
+  font-size: 2.188rem;
+  color: var(--color-primary);
+}
+.texto-depoimento i:first-child{
+  padding-left: 10px;
+  padding-right: 35px;
+}
+.texto-depoimento i:last-child{
+  padding-left: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.button-depoimentos{
+  text-align: center;
+}
