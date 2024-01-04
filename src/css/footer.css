@@ -1,0 +1,21 @@
+.footer{
+  background-color: var(--color-secondary);
+  margin-top: 150px;
+}
+.logo-footer{
+  width: 150px;
+}
+.container-all-footer{
+  display: flex;
+  align-items: center;
+}
+.container-logo-footer{
+  justify-content: start;
+}
+.container-texto-footer{
+  justify-content: center;
+  text-align: center;
+}
+.container-redes-footer{
+  justify-content: end;
+}
