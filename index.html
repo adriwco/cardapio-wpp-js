@@ -310,7 +310,7 @@
               </blockquote>
             </article>
 
-            <article class="hidden">
+            <article class="d-none">
               <figure class="depoimento" id="depoimento-2">
                 <img src="./src/img/ana.jpg" alt="Imagem do depoente desconhecido">
                 <figcaption>
@@ -339,7 +339,7 @@
               </blockquote>
             </article>
 
-            <article class="hidden">
+            <article class="d-none">
               <figure class="depoimento" id="depoimento-3">
                 <img src="./src/img/joao.jpg" alt="Imagem do depoente desconhecido">
                 <figcaption>
@@ -389,7 +389,7 @@
         <div class="col-6 container-texto-footer">
           <p class="mb-0"><b>Menu On-line</b> &copy; Todos os direitos reservados.</p>
         </div>
-        <div class="col-3 container-redes-footer">  
+        <div class="col-3 container-redes-footer">
           <a href="#" class="btn btn-sm btn-white btn-social mr-3">
             <i class="fab fa-instagram"></i>
           </a>
@@ -403,6 +403,164 @@
       </div>
     </div>
   </footer>
+
+  <div class="modal-full" id="modalCarrinho" tabindex="-1" role="dialog" aria-labelledby="modalCarrinhoLabel" aria-hidden="true">
+    <header class="m-header" aria-labelledby="lblTituloEtapa">
+      <div class="container">
+        <button class="btn btn-white btn-sm float-right" aria-label="Fechar modal carrinho">Fechar</button>
+        <nav aria-label="Etapas do Carrinho">
+          <ul class="etapas">
+            <li class="etapa etapa1 active" aria-current="step">1</li>
+            <li class="etapa etapa2" aria-current="step">2</li>
+            <li class="etapa etapa3" aria-current="step">3</li>
+          </ul>
+        </nav>
+        <h2 id="lblTituloEtapa" class="title-carrinho mt-4"><b>Seu carrinho:</b></h2>
+      </div>
+    </header>
+
+    <main class="m-body" aria-label="Conteúdo do Carrinho de Compras">
+      <div class="container">
+
+        <section id="itensCarrinho" class="row mr-0 ml-0" aria-labelledby="tituloItensCarrinho">
+          <h3 id="tituloItensCarrinho" class="sr-only">Itens do Carrinho</h3>
+
+          <div class="col-12 item-carrinho" role="listitem" tabindex="0" aria-label="Nome do produto: Nome do produto, Preço: R$ 149,90, Quantidade de itens: 0">
+            <div class="img-produto">
+              <img src="./src/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg" alt="chickpea chiller kit for 6">
+            </div>
+            <div class="dados-produto">
+              <div class="title-produto"><b>Nome do produto</b></div>
+              <div class="price-produto"><b>R$ 149,90</b></div>
+            </div>
+            <div class="add-carrinho">
+              <button class="btn-menos" aria-label="Remover um item"><i class="fas fa-minus"></i></button>
+              <span class="btn-numero-itens" aria-live="polite" aria-label="Quantidade de itens: 0">0</span>
+              <button class="btn-mais" aria-label="Adicionar um item"><i class="fas fa-plus"></i></button>
+              <button class="btn btn-remove" aria-label="Remover do carrinho"><i class="fa fa-times"></i></button>
+            </div>
+          </div>
+          <div class="col-12 item-carrinho" role="listitem" tabindex="0" aria-label="Nome do produto: Nome do produto, Preço: R$ 149,90, Quantidade de itens: 0">
+            <div class="img-produto">
+              <img src="./src/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg" alt="chickpea chiller kit for 6">
+            </div>
+            <div class="dados-produto">
+              <div class="title-produto"><b>Nome do produto</b></div>
+              <div class="price-produto"><b>R$ 149,90</b></div>
+            </div>
+            <div class="add-carrinho">
+              <button class="btn-menos" aria-label="Remover um item"><i class="fas fa-minus"></i></button>
+              <span class="btn-numero-itens" aria-live="polite" aria-label="Quantidade de itens: 0">0</span>
+              <button class="btn-mais" aria-label="Adicionar um item"><i class="fas fa-plus"></i></button>
+              <button class="btn btn-remove" aria-label="Remover do carrinho"><i class="fa fa-times"></i></button>
+            </div>
+          </div>
+          <div class="col-12 item-carrinho" role="listitem" tabindex="0" aria-label="Nome do produto: Nome do produto, Preço: R$ 149,90, Quantidade de itens: 0">
+            <div class="img-produto">
+              <img src="./src/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg" alt="chickpea chiller kit for 6">
+            </div>
+            <div class="dados-produto">
+              <div class="title-produto"><b>Nome do produto</b></div>
+              <div class="price-produto"><b>R$ 149,90</b></div>
+            </div>
+            <div class="add-carrinho">
+              <button class="btn-menos" aria-label="Remover um item"><i class="fas fa-minus"></i></button>
+              <span class="btn-numero-itens" aria-live="polite" aria-label="Quantidade de itens: 0">0</span>
+              <button class="btn-mais" aria-label="Adicionar um item"><i class="fas fa-plus"></i></button>
+              <button class="btn btn-remove" aria-label="Remover do carrinho"><i class="fa fa-times"></i></button>
+            </div>
+          </div>
+          <div class="col-12 item-carrinho" role="listitem" tabindex="0" aria-label="Nome do produto: Nome do produto, Preço: R$ 149,90, Quantidade de itens: 0">
+            <div class="img-produto">
+              <img src="./src/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg" alt="chickpea chiller kit for 6">
+            </div>
+            <div class="dados-produto">
+              <div class="title-produto"><b>Nome do produto</b></div>
+              <div class="price-produto"><b>R$ 149,90</b></div>
+            </div>
+            <div class="add-carrinho">
+              <button class="btn-menos" aria-label="Remover um item"><i class="fas fa-minus"></i></button>
+              <span class="btn-numero-itens" aria-live="polite" aria-label="Quantidade de itens: 0">0</span>
+              <button class="btn-mais" aria-label="Adicionar um item"><i class="fas fa-plus"></i></button>
+              <button class="btn btn-remove" aria-label="Remover do carrinho"><i class="fa fa-times"></i></button>
+            </div>
+          </div>
+          <div class="col-12 item-carrinho" role="listitem" tabindex="0" aria-label="Nome do produto: Nome do produto, Preço: R$ 149,90, Quantidade de itens: 0">
+            <div class="img-produto">
+              <img src="./src/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg" alt="chickpea chiller kit for 6">
+            </div>
+            <div class="dados-produto">
+              <div class="title-produto"><b>Nome do produto</b></div>
+              <div class="price-produto"><b>R$ 149,90</b></div>
+            </div>
+            <div class="add-carrinho">
+              <button class="btn-menos" aria-label="Remover um item"><i class="fas fa-minus"></i></button>
+              <span class="btn-numero-itens" aria-live="polite" aria-label="Quantidade de itens: 0">0</span>
+              <button class="btn-mais" aria-label="Adicionar um item"><i class="fas fa-plus"></i></button>
+              <button class="btn btn-remove" aria-label="Remover do carrinho"><i class="fa fa-times"></i></button>
+            </div>
+          </div>
+          <div class="col-12 item-carrinho" role="listitem" tabindex="0" aria-label="Nome do produto: Nome do produto, Preço: R$ 149,90, Quantidade de itens: 0">
+            <div class="img-produto">
+              <img src="./src/img/cardapio/bebidas/chickpea-chiller-kit-for-6.4310765c71ba524b5462ea9330d32446.jpg" alt="chickpea chiller kit for 6">
+            </div>
+            <div class="dados-produto">
+              <div class="title-produto"><b>Nome do produto</b></div>
+              <div class="price-produto"><b>R$ 149,90</b></div>
+            </div>
+            <div class="add-carrinho">
+              <button class="btn-menos" aria-label="Remover um item"><i class="fas fa-minus"></i></button>
+              <span class="btn-numero-itens" aria-live="polite" aria-label="Quantidade de itens: 0">0</span>
+              <button class="btn-mais" aria-label="Adicionar um item"><i class="fas fa-plus"></i></button>
+              <button class="btn btn-remove" aria-label="Remover do carrinho"><i class="fa fa-times"></i></button>
+            </div>
+          </div>
+
+        </section>
+
+        <section id="localEntrega" class="row mr-0 ml-0 d-none" aria-labelledby="tituloLocalEntrega">
+          <h3 id="tituloLocalEntrega" class="sr-only">Local de Entrega</h3>
+          <!-- Conteúdo do local de entrega -->
+        </section>
+        <section id="resumoCarrinho" class="row mr-0 ml-0 d-none" aria-labelledby="tituloResumoCarrinho">
+          <h3 id="tituloResumoCarrinho" class="sr-only">Resumo do Carrinho</h3>
+          <!-- Conteúdo do resumo do carrinho -->
+        </section>
+      </div>
+    </main>
+
+    <footer class="m-footer" aria-labelledby="rotulosTotais">
+      <div class="container">
+        <div class="container-total text-right mb-4">
+          <h2 id="rotulosTotais" class="sr-only">Totais do Carrinho</h2>
+          <section class="subtotal">
+            <p class="mb-0">
+              <span>Subtotal:</span>
+              <span id="lblSubTotal">R$ 5,00</span>
+            </p>
+          </section>
+          <section class="entrega">
+            <p class="mb-0 texto-entrega">
+              <span><i class="fas fa-motorcycle"></i> Entrega:</span>
+              <span id="lblValorEntrega">+ R$ 5,00</span>
+            </p>
+          </section>
+          <section class="total">
+            <p class="mb-0 texto-total">
+              <span><b>Total:</b></span>
+              <span class="valor-total" id="lblValorTotal"><b>R$ 10,00</b></span>
+            </p>
+          </section>
+        </div>
+        <nav class="botoes-carrinho">
+          <button class="btn btn-yellow float-right" id="btnEtapaPedido">Continuar</button>
+          <button class="btn btn-yellow float-right d-none" id="btnEtapaEndereco">Revisar pedido</button>
+          <button class="btn btn-yellow float-right d-none" id="btnEtapaResumo">Enviar pedido</button>
+          <button class="btn btn-white float-right mr-3 d-none" id="btnVoltar">Voltar</button>
+        </nav>
+      </div>
+    </footer>
+  </div>
 
   <script src="https://kit.fontawesome.com/57e0ccf5bb.js" crossorigin="anonymous"></script>
   <script src="./src/libs/js-lib/jquery-1.12.4.min.js"></script>

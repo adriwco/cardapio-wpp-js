@@ -70,3 +70,11 @@ b{
 .btn-yellow:hover{
   background-color: var(--color-primary-1);
 }
+.btn-remove{
+  border: 2px solid var(--color-red);
+  font-size: 1rem;
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: var(--color-white);
+  background-color: var(--color-red);
+}
